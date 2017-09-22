@@ -11,9 +11,9 @@ public class display {
     private String label1String = "Válassz felületet!";
     private String button1String = "Gyerekek";
     private String button2String = "Ovónők";
+    JFrame frame = new JFrame();
     
     public void display() {
-        JFrame frame = new JFrame();
         JLabel label1 = new JLabel(label1String);
         JButton button1 = new JButton(button1String);
         JButton button2 = new JButton(button2String);
